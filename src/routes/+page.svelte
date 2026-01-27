@@ -18,7 +18,7 @@
     content: [
       `If you have suggestions for a project or would like to contact me for
       another reason, feel free to email me at <a
-        href=&quot;mailto:lucas@langes.us&quot;>lucas@langes.us</a
+        href=&quot;mailto:lucas@langes.us&quot; vite-ignore>lucas@langes.us</a
       >. I'm always open to comments, questions, and suggestions.
       Alternately, you can find me on linkedin, github, and discord using
       the links below.`,
