@@ -101,16 +101,16 @@
 }
 
 :global(.width-restrict) {
-  width: 100%;
+  width: 100% !important;
 }
 
 @media (min-width: 992px) {
   :global(.width-restrict) {
-    width: 75%;
+    width: 75% !important;
   }
 }
 
 :global(body) {
-  background-color: #191724;
+  background-color: #191724 !important;
 }
 </style>
