@@ -22,6 +22,8 @@
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
   });
+  
+  let show = $state(false);
  
 </script>
 
@@ -29,11 +31,10 @@
 <nav class="navbar navbar-expand-lg text-uppercase fixed-top" class:navbar-shrink={isNavShrunk} id="main-nav">
   <div class="container">
     <a class="navbar-brand" href="/"><span class="shadowed">L</span></a>
-    <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" 
-      aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler text-uppercase font-weight-bold" type="button" onclick={() => {show = !show;}}>
       <img src="/images/list.svg" alt="bars">
     </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+    <div class="collapse navbar-collapse" class:show={show} id="navbarResponsive">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/about">My Story</a></li>
         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/projects">Projects</a>
@@ -46,6 +47,15 @@
 </nav>
 
 <style>
+  button {
+    border-radius: 0px;
+    color: #e0def4;
+  }
+  
+  button:focus {
+    box-shadow: none;
+  }
+  
   #main-nav{
     padding-top: .5rem;
     padding-bottom: .5rem;
