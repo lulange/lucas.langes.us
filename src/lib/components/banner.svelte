@@ -2,24 +2,24 @@
   const {heading} = $props();
 </script>
 
-<h1 class="page-section-heading text-center text-uppercase pb-5 mb-0">
+<h2 class="page-section-heading text-center text-uppercase pb-5 mb-0">
   <div class="boxed">{heading}</div>
-</h1>
+</h2>
 
 <style>
-  h1 {
+  h2 {
     background-color: #1f1d2e;
     padding-top: calc(4rem + 74px);
     padding-bottom: 2rem;
     font-family: "Nixie One", system-ui;
-    font-size: 2.75rem;
-    line-height: 2.75rem;
+    font-size: 2.25rem;
+    line-height: 4rem;
     text-shadow: .05em .05em #6e6a86;
     color: #e0def4;
   }
   
   @media (min-width: 992px) {
-    h1 {
+    h2 {
       padding-top: calc(4rem + 104px);
       padding-bottom: 2rem;
     }

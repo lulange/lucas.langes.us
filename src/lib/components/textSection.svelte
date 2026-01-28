@@ -9,7 +9,7 @@
     <h2 class="page-section-heading text-center text-uppercase mb-5 animate-on-scroll"><div class="boxed">{content.heading}</div></h2>
     <!-- Section Content-->
     <div class="container-lg width-restrict">
-    <div class="p-3 overlay justify-content-center animate-on-scroll">
+    <div class="p-3 overlay justify-content-center">
       {#each content.content as paragraph}
         <p class="lead">{@html paragraph}</p>
 		  {/each}
@@ -30,7 +30,7 @@
 
   .page-section .page-section-heading {
     font-size: 2.25rem;
-    line-height: 2rem;
+    line-height: 4rem;
     font-family: "Nixie One";
     text-shadow: .05em .05em #6e6a86;
   }

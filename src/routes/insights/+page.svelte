@@ -17,7 +17,7 @@
 <div id="boxes-start-left"></div>
 <div id="boxes-start-right"></div>
 
-<Banner heading="Project Insights"/>
+<Banner heading="Insights"/>
 
 <CardList />
 

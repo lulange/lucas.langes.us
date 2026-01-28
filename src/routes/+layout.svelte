@@ -1,5 +1,4 @@
 <script>
-	import favicon from '$lib/assets/favicon.ico';
   import Nav from '$lib/components/nav.svelte';
   import Footer from '$lib/components/footer.svelte';
 
@@ -9,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href='/images/favicon.ico' />
   <title>Lucas Lange</title>
 
   <!-- Nixie One font and IBM Plex Mono font -->
