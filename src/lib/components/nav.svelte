@@ -2,7 +2,7 @@
   
   import { onMount } from 'svelte';
   
-  let isNavShrunk = false;
+  let isNavShrunk = $state(false);
 
   onMount(() => {
     
