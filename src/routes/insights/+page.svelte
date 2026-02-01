@@ -4,6 +4,7 @@
     
     import { onMount } from "svelte";
     import { addSquares } from '$lib/js/squares.js';
+    import TextSection from "$lib/components/textSection.svelte";
     
     onMount(() => {
       const boxStartRight = document.getElementById("boxes-start-right");
@@ -12,6 +13,10 @@
       
       setTimeout(function() {addSquares(boxStartLeft, boxStartRight, boxEnd);}, 500);
     });
+    
+    const pageContent = [
+      `The insights section is new. Check back later to see deep dives into projects I'm working on.`
+    ];
 </script>
 
 <div id="boxes-start-left"></div>
@@ -19,6 +24,6 @@
 
 <Banner heading="Insights"/>
 
-<CardList />
+<TextSection content={pageContent} />
 
 <div id="boxes-end"></div>

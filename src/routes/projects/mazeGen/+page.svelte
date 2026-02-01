@@ -1,6 +1,5 @@
 <script>
   import Banner from "$lib/components/banner.svelte";
-  import Spacer from "$lib/components/spacer.svelte";
   import TextSection from "$lib/components/textSection.svelte";
   import { onMount } from "svelte";
   import { addSquares } from '$lib/js/squares.js';
@@ -135,40 +134,33 @@
     });
   });
   
-  const pageContent = {
-    heading: "Maze Generation",
-    content: [
-      `Maze generation is an interesting topic. 
-      There are tons of different algorithms, 
-      and they all make slightly different styled mazes. 
-      In the case of this maze generator, I use a random walking 
-      technique that creates a minimum spanning tree by attaching one square of the maze at a time. 
-      This yields a maze with no loops or cut off sections. The generation has two speeds. 
-      It defaults to a slow speed (optimal for watching the algorithm) 
-      but can be sped up to be instant
-      with an option underneath the maze frame. 
-      There is also a 'randomness' range selector which will allow you
-      to adjust the chance that a new random walk is started on a given iteration (rather than continuing the current one).
-      Mazes with 'randomness' too high or too low are generally fairly easy.
-      If you're the type of person who 
-      likes to do mazes by hand, try printing with CTRL-p.`,
-    ]
-  };
+  const pageContent = [
+    `Maze generation is an interesting topic. 
+    There are tons of different algorithms, 
+    and they all make slightly different styled mazes. 
+    In the case of this maze generator, I use a random walking 
+    technique that creates a minimum spanning tree by attaching one square of the maze at a time. 
+    This yields a maze with no loops or cut off sections. The generation has two speeds. 
+    It defaults to a slow speed (optimal for watching the algorithm) 
+    but can be sped up to be instant
+    with an option underneath the maze frame. 
+    There is also a 'randomness' range selector which will allow you
+    to adjust the chance that a new random walk is started on a given iteration (rather than continuing the current one).
+    Mazes with 'randomness' too high or too low are generally fairly easy.
+    If you're the type of person who 
+    likes to do mazes by hand, try printing with CTRL-p.`,
+  ];
 </script>
-
-<Spacer/>
 
 <div id="boxes-start-right"></div>
 <div id="boxes-start-left"></div>
 
-<TextSection
-  content={pageContent}
-/>
+<Banner heading="Maze Generation" />
 
-<div class="container-lg align-items-center justify-content-center text-center pb-4">
-    <!-- Project Section Heading-->
-    <h2 class="page-section-heading text-center text-uppercase text-white mb-5">Maze Generation</h2>
+<TextSection content={pageContent} />
 
+<section>
+<div class="container-lg align-items-center justify-content-center text-center py-5">
     <div id="alt-text" class="text-center lead">
       Screen width is too small for the maze generation canvas. <br>Try using a screen with a pixel width of 700 or greater.
     </div>
@@ -203,6 +195,7 @@
       </div>
     </div>
   </div>
+  </section>
 
 <div id="boxes-end"></div>
 
@@ -333,8 +326,6 @@
   input[type=range]:focus::-ms-fill-upper {
     background: #6e6a86;
   }
-  /*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
-  how to remove the virtical space around the range input in IE*/
   @supports (-ms-ime-align:auto) {
     /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
     input[type=range] {
@@ -370,6 +361,10 @@
     #canvas-wrapper {
       display: none;
     }
+  }
+  
+  .container-lg, section {
+    background-color: #1f1d2e;
   }
   
   @media print {

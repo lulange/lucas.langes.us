@@ -16,12 +16,20 @@
     const cardDataList = 
     [
       {
-        heading: "Sudoku Solver",
-        description: "Check your work",
-        link: "/projects/sudokuSolver",
-        linkTitle: "Sudoku Solver link",
-        imgSrc: "/images/sudokuSolverScreenshot.png",
-        imgAlt: "Sudoku Solver Running"
+        heading: "Waffle Wars",
+        description: "An online board game",
+        link: "/projects/waffleWars",
+        linkTitle: "Waffle Wars Link",
+        imgSrc: "/images/waffleWarsScreenshot.png",
+        imgAlt: "A Waffle with the Waffle Wars logo superimposed"
+      },
+      {
+        heading: "Mini DBMS",
+        description: "Written in Rust",
+        link: "/projects/miniDBMS",
+        linkTitle: "Mini DBMS Link",
+        imgSrc: "/images/miniDBMSScreenshot.png",
+        imgAlt: "A console with DBMS commands"
       },
       {
         heading: "Maze Gen",
@@ -30,6 +38,14 @@
         linkTitle: "Maze Generation Link",
         imgSrc: "/images/MazeGenScreenshot.png",
         imgAlt: "A maze"
+      },
+      {
+        heading: "Sudoku Solver",
+        description: "Check your work",
+        link: "/projects/sudokuSolver",
+        linkTitle: "Sudoku Solver link",
+        imgSrc: "/images/sudokuSolverScreenshot.png",
+        imgAlt: "Sudoku Solver Running"
       }
     ];
 </script>

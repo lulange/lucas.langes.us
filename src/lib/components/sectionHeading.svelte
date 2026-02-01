@@ -9,7 +9,7 @@
 <style>
   h2 {
     background-color: #1f1d2e;
-    padding-top: calc(4rem + 74px);
+    padding-top: 4rem;
     padding-bottom: 0px;
     font-family: "Nixie One", system-ui;
     font-size: 2.25rem;
@@ -20,7 +20,7 @@
   
   @media (min-width: 992px) {
     h2 {
-      padding-top: calc(4rem + 104px);
+      padding-top: 4rem;
       padding-bottom: 0px;
       font-size: 3rem;
       line-height: 2.5rem;

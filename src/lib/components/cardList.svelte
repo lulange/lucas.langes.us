@@ -4,7 +4,7 @@
 </script>
 
 
-<div id="background" class="pb-5">
+<div id="background" class="py-3">
 <div class="container-lg width-restrict ps-3 pe-3">
 <div class="row gx-5 justify-content-center">
   {#each cardList as card}

@@ -1,6 +1,5 @@
 <script>
     import Banner from "$lib/components/banner.svelte";
-    import Spacer from "$lib/components/spacer.svelte";
     import TextSection from "$lib/components/textSection.svelte";
     import { onMount } from "svelte";
     import { addSquares } from '$lib/js/squares.js';
@@ -553,22 +552,19 @@
         
     });
     
-    const pageContent = {
-      heading: "Sudoku Solver",
-      content: [
-        `This sudoku solver uses three steps. 
-        First, it attempts to solve using direct logical inference - e.g. what you or I might try. 
-        If that fails, it then assumes it might be blocked by an advanced technique and guesses one number 
-        before trying the direct approach again. If all possible one-number guesses are exhausted, 
-        it turns to brute forcing the puzzle by trying all combinations.`,
-      ]
-    };
+    const pageContent = [
+      `This sudoku solver uses three steps. 
+      First, it attempts to solve using direct logical inference - e.g. what you or I might try. 
+      If that fails, it then assumes it might be blocked by an advanced technique and guesses one number 
+      before trying the direct approach again. If all possible one-number guesses are exhausted, 
+      it turns to brute forcing the puzzle by trying all combinations.`,
+    ];
 </script>
-
-<Spacer/>
 
 <div id="boxes-start-right"></div>
 <div id="boxes-start-left"></div>
+
+<Banner heading="Sudoku Solver" />
 
 <TextSection
   content={pageContent}

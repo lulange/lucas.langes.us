@@ -20,7 +20,7 @@
     <hr />
     <!-- Masthead Subheading-->
     <p class="masthead-subheading font-weight-light mb-0">
-      Software Developer, Student, Cat Lover
+      Student, Software Developer, Tech Enthusiast
     </p>
     </div>
     </div>
