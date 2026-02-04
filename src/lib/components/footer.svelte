@@ -7,7 +7,7 @@
       <div class="col-lg-4 mb-5 mb-lg-0">
         <h4 class="text-uppercase mb-4">Location</h4>
         <p class="lead mb-0">
-          I'm currently based<br /> in Ypsilanti, MI
+          Ypsilanti, MI
         </p>
       </div>
       <!-- Footer Social Icons-->
@@ -71,9 +71,9 @@
       </div>
       <!-- Footer About Text-->
       <div class="col-lg-4">
-        <h4 class="text-uppercase mb-4">This website</h4>
+        <h4 class="text-uppercase mb-4">Colorscheme</h4>
         <p class="lead mb-0">
-          This website is hosted<br/> on google firebase.
+          This website uses the MIT licensed <a href="https://rosepinetheme.com">Rosé Pine</a> colorscheme.
         </p>
       </div>
     </div>

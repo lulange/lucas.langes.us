@@ -570,7 +570,7 @@
   content={pageContent}
 />
 
-<div class="container-lg align-items-center justify-content-center text-center pb-4">
+<div class="container-lg align-items-center justify-content-center text-center py-4">
   <table id="table-wrapper">
   <tbody>
   <tr>
@@ -913,8 +913,8 @@
   }
 
   input {
-    width: 20px;
-    height: 20px;
+    width: 100%;
+    height: 100%;
     border-width: 0px;
     outline: none;
     text-align: center;

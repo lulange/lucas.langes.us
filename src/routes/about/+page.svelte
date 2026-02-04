@@ -22,7 +22,7 @@
       
       `Also during this time, I became very interested in math. Throughout high school, I strove to take
       as many math classes as possible. At the end of it all, I had completed four college-level math classes as a dual-enrolled 
-      student. This meant that when it came to choose a major for college, I was able to choose to double major in
+      student. This meant that when it came time to choose a major for college, I was able to choose to double major in
       both math and computer science without adding extra semesters to my degree. Throughout my coursework, I have often been
       glad I chose to double major. As I see it, Mathematics provides a foundation in logical analysis through which I 
       am better able to approach programming.`,

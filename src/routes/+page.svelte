@@ -16,7 +16,7 @@
   
   const contactMe = [
     `If you have suggestions for a project or would like to contact me for
-    another reason, feel free to email me at lucas@langes.us. 
+    another reason, feel free to email me at <a href="mailto:lucas@langes.us">lucas@langes.us</a>. 
     I'm always open to comments, questions, and suggestions.
     Alternately, you can find me on linkedin, github, and discord using
     the links below.`,
