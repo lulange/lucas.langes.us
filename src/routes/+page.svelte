@@ -18,7 +18,7 @@
     `If you have suggestions for a project or would like to contact me for
     another reason, feel free to email me at <a href="mailto:lucas@langes.us">lucas@langes.us</a>. 
     I'm always open to comments, questions, and suggestions.
-    Alternately, you can find me on linkedin, github, and discord using
+    Alternately, you can find me on linkedin and github using
     the links below.`,
   ];
   
@@ -26,8 +26,7 @@
     `Hi, I'm Lucas.
     I am a computer science and mathematics student at Eastern Michigan Universtiy and a general programming enthusiast.
     I like to make things related to math, gaming, algorithms, and more.`,
-    `On this page, you'll find links to my projects and project insights where I go into depth
-    on various aspects of my projects' implementations.`
+    `On this page, you'll find links to my projects, my Github and Linkedin, and a little background about me.`
   ];
 </script>
 

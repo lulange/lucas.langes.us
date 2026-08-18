@@ -21,14 +21,15 @@
       precursor to this site, although I have now redesigned it several times.`,
       
       `Also during this time, I became very interested in math. Throughout high school, I strove to take
-      as many math classes as possible. At the end of it all, I had completed four college-level math classes as a dual-enrolled 
-      student. This meant that when it came time to choose a major for college, I was able to choose to double major in
-      both math and computer science without adding extra semesters to my degree. Throughout my coursework, I have often been
+      as many math classes as possible. This meant that when it came time to choose a major for college, I naturally came to the choice 
+      to double major in math and computer science. Throughout my coursework, I have often been
       glad I chose to double major. As I see it, Mathematics provides a foundation in logical analysis through which I 
       am better able to approach programming.`,
       
-      `Currently, I am working through my final year at Eastern, expecting to graduate in December this year (2026).
-      I hope to work through the summer as a Software Engineer Intern in pursuit of a future career in the tech industry.`
+      `During my summers off, I have interned as a business analyst at Advantage Comuputing Solutions (2025)
+      and as a software developer at Tyler Technologies (2026).
+      Currently, I am working through my final year at Eastern, expecting to graduate this December (2026).
+      In January, I hope to begin working in the industry full time as a software developer.`
     ];
 </script>
 
