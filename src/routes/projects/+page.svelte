@@ -16,14 +16,6 @@
     const cardDataList = 
     [
       {
-        heading: "Waffle Wars",
-        description: "An online board game",
-        link: "/projects/waffleWars",
-        linkTitle: "Waffle Wars Link",
-        imgSrc: "/images/waffleWarsScreenshot.png",
-        imgAlt: "A Waffle with the Waffle Wars logo superimposed"
-      },
-      {
         heading: "Mini DBMS",
         description: "Written in Rust",
         link: "/projects/miniDBMS",
