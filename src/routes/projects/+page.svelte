@@ -16,6 +16,22 @@
     const cardDataList = 
     [
       {
+        heading: "LimeLight",
+        description: "My team's RocketHacks 2026 project: A marketplace for startup funding.",
+        link: "/projects/limeLight",
+        linkTitle: "LimeLight link",
+        imgSrc: "/images/LimeLightScreenshot.png",
+        imgAlt: "A dark webpage with a title saying 'the premier platform for startup investing'."
+      },
+      {
+        heading: "Examable",
+        description: "My school group's capstone project: An exam generation platform.",
+        link: "/projects/examable",
+        linkTitle: "Examable Link",
+        imgSrc: "/images/ExamableScreenshot.png",
+        imgAlt: "A dashboard welcoming the user and providing both usage statistics and options to navigate."
+      },
+      {
         heading: "Mini DBMS",
         description: "Written in Rust",
         link: "/projects/miniDBMS",
