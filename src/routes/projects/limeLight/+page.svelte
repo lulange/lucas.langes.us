@@ -15,8 +15,14 @@
     });
     
     const pageContent = [
-      `TODO.`,
-      `<a class="lead" target="_blank" href="https://github.com/lulange/LimeLight">Check out the Github page!</a>`,
+      `LimeLight was my group's project for the 2026 RocketHacks event at University of Toledo. It won the 'MLH - Best use of Solana' track.`,
+      `Fundamentally, LimeLight is a startup discovery and investing platform prototype. It was intended to give users a discovery feed of startups, 
+      founder/profile pages, and a studio workflow for creating startup pitch cards. It used React and TailwindCSS for the frontend and
+      several AWS cloud services for the backend - including AWS Amplify Auth, AWS S3, and AWS Lambda functions.`,
+      `This project is not actively hosted anywhere since it was a hackathon project which never left the prototype phase.
+      However, feel free to check out all the technical details on 
+      <a class="lead" target="_blank" href="https://github.com/lulange/LimeLight">the Github page</a>
+      or read more on <a class="lead" target="blank" href="https://devpost.com/software/limelight-qj7bxn">the devpost submission article.</a>`,
     ];
   </script>
   
