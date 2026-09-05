@@ -3,7 +3,7 @@
 </script>
 
 <!-- Project Card -->
-<div class="container mb-5">
+<div class="container h-100">
 <div id="card">
   <img
     class="card-img-top"
@@ -35,6 +35,8 @@
     z-index: 2;
     transform: scale(1);
     transition: transform ease-in .3s;
+    background-color: #26233a;
+    color: #e0def4;
   }
   
   #card:hover {
@@ -55,11 +57,6 @@
     100% {
       box-shadow: -4px 4px #1f1d2e, -8px 8px #ebbcba, 4px -4px #1f1d2e, 8px -8px #ebbcba;
     }
-  }
-  
-  .card-body {
-    background-color: #26233a;
-    color: #e0def4;
   }
   
   img {
