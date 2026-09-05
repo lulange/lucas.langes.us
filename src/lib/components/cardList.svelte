@@ -6,7 +6,7 @@
 
 <div id="background" class="py-3">
 <div class="container-lg width-restrict ps-3 pe-3">
-<div class="row gx-5 justify-content-center">
+<div class="row g-5 justify-content-center">
   {#each cardList as card}
     <div class="col-xl-4 col-lg-6">
       <Card
