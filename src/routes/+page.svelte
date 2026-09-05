@@ -49,8 +49,3 @@
 />
 
 <div id="boxes-end"></div>
-
-
-<style>
-  
-</style>
