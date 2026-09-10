@@ -33,7 +33,7 @@
       },
       {
         heading: "Mini DBMS",
-        description: "Written in Rust",
+        description: "Written in Rust: A fully-functional Database Management System.",
         link: "/projects/miniDBMS",
         linkTitle: "Mini DBMS Link",
         imgSrc: "/images/miniDBMSScreenshot.png",
@@ -41,7 +41,7 @@
       },
       {
         heading: "Maze Gen",
-        description: "Print with CTRL-p",
+        description: "Select your options, watch your maze generate, and print with CTRL-p.",
         link: "/projects/mazeGen",
         linkTitle: "Maze Generation Link",
         imgSrc: "/images/MazeGenScreenshot.png",
@@ -49,7 +49,7 @@
       },
       {
         heading: "Sudoku Solver",
-        description: "Check your work",
+        description: "Watch the algorithmn check your work or solve incomplete puzzles.",
         link: "/projects/sudokuSolver",
         linkTitle: "Sudoku Solver link",
         imgSrc: "/images/sudokuSolverScreenshot.png",
